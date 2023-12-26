@@ -4,10 +4,10 @@ import math
 
 from mutwo_third_party import pydsm
 
+from mutwo import acoustic_converters
 from mutwo import core_constants
 from mutwo import core_converters
 from mutwo import core_events
-from mutwo import acoustic_converters
 
 __all__ = ("LoudnessToAmplitude",)
 

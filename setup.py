@@ -32,6 +32,8 @@ setuptools.setup(
     setup_requires=[],
     install_requires=[
         "mutwo.core>=1.0.0, <2.0.0",
+        "scipy>=1.4.1, <2.0.0",
+        "numpy>=1.18, <2.00",
     ],
     extras_require=extras_require,
     python_requires=">=3.10, <4",
